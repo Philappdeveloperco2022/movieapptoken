@@ -95,7 +95,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Sophia Taylor',
+                                  'MCXT  Holder',
                                   style: FlutterFlowTheme.of(context)
                                       .subtitle2
                                       .override(

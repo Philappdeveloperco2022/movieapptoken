@@ -119,7 +119,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      'Music',
+                                      'Movies',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -150,7 +150,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        'Podcasts & Shows',
+                                        'Episodes &  TV Shows',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -182,7 +182,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        'Audioboooks',
+                                        'Genres',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(

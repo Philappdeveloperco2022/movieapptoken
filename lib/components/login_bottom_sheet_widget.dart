@@ -90,7 +90,7 @@ class _LoginBottomSheetWidgetState extends State<LoginBottomSheetWidget> {
                       size: 32,
                     ),
                     title: Text(
-                      'Member',
+                      'MCXT Member',
                       style: FlutterFlowTheme.of(context).subtitle2.override(
                             fontFamily: 'Poppins',
                             color: Colors.white,
@@ -148,7 +148,7 @@ class _LoginBottomSheetWidgetState extends State<LoginBottomSheetWidget> {
                             ),
                       ),
                       subtitle: Text(
-                        'Use the app without authentication',
+                        'Skip for now',
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
                               color: FlutterFlowTheme.of(context).primaryText,

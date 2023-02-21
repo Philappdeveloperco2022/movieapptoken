@@ -1,6 +1,7 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'subscription_card_model.dart';
@@ -63,8 +64,8 @@ class _SubscriptionCardWidgetState extends State<SubscriptionCardWidget> {
         children: [
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 8),
-            child: Icon(
-              FFIcons.knameCrown,
+            child: FaIcon(
+              FontAwesomeIcons.sketch,
               color: widget.color,
               size: 64,
             ),
@@ -74,7 +75,7 @@ class _SubscriptionCardWidgetState extends State<SubscriptionCardWidget> {
             style: FlutterFlowTheme.of(context).subtitle2,
           ),
           Text(
-            widget.price!,
+            '1000 MCXT',
             style: FlutterFlowTheme.of(context).bodyText1,
           ),
           ListTile(
@@ -92,29 +93,6 @@ class _SubscriptionCardWidgetState extends State<SubscriptionCardWidget> {
             ),
             subtitle: Text(
               'Watch videos in 4K quality',
-              style: FlutterFlowTheme.of(context).bodyText1.override(
-                    fontFamily: 'Poppins',
-                    fontSize: 12,
-                  ),
-            ),
-            tileColor: Colors.transparent,
-            dense: false,
-          ),
-          ListTile(
-            leading: Icon(
-              FFIcons.knameTick,
-              color: widget.color,
-            ),
-            title: Text(
-              'Watch offline',
-              style: FlutterFlowTheme.of(context).bodyText1.override(
-                    fontFamily: 'Poppins',
-                    color: FlutterFlowTheme.of(context).secondaryText,
-                    fontWeight: FontWeight.w500,
-                  ),
-            ),
-            subtitle: Text(
-              'Download videos and watch later',
               style: FlutterFlowTheme.of(context).bodyText1.override(
                     fontFamily: 'Poppins',
                     fontSize: 12,
